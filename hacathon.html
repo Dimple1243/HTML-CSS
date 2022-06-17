@@ -1,0 +1,186 @@
+<html>
+<head>
+<title>my images</title>
+<script src="https://kit.fontawesome.com/01fa67f751.js" crossorigin="anonymous"></script>
+</head>
+<h1>Photo Gallery</h1>
+<style>
+  *{
+  margin-left: 35;
+  margin-right:auto ;
+  margin-top: auto;
+  margin-bottom: 50;
+  }
+  img {
+  width: 70%;
+  height: auto;
+  border: 6px solid black;
+  }
+  body { 
+    background-color: goldenrod;
+    }
+  .icon{
+    font-size: 30px;
+    margin-left: -70%; 
+    color: white;
+   
+  }
+  .icon1{
+    font-size: 30px;
+    margin-right:80%;
+    color:white;
+   
+  }
+  .down{
+    font-size: 30px;
+    margin-left:-30%;
+    color:blue;
+   
+  }
+  h1{
+    font-size: 50px;
+    font-style: oblique;
+    color: black;
+    text-align: center; 
+    border: 10px solid black;
+    background-color:green;
+    margin-left: -10%;
+  }
+</style>
+<body>
+  <header>
+    <div class="container">
+        <img src="blog-post-1-cover.jpg" alt="" width="40px" height="40px">
+        <i onclick="thumbsup1()" id="thumbsup1" class="fa-solid fa-thumbs-up icon"></i>
+        <i onclick="thumbsdown1()" id="thumbsdown1" class="fa-solid fa-thumbs-down icon1"></i>
+        <i class="fa-solid fa-download down" ></i>
+        <img src="profile_pic.jpg" alt="" width="40px" height="40px">
+        <i onclick="thumbsup2()" id="thumbsup2" class="fa-solid fa-thumbs-up icon"></i>
+        <i onclick="thumbsdown2()" id="thumbsdown2" class="fa-solid fa-thumbs-down icon1"></i>
+        <i class="fa-solid fa-download down"></i>
+        <img src="mountains.jpg" alt="" width="40px" height="40px">
+        <i onclick="thumbsup3()" id="thumbsup3" class="fa-solid fa-thumbs-up icon"></i>
+        <i onclick="thumbsdown3()" id="thumbsdown3" class="fa-solid fa-thumbs-down icon1"></i>
+        <i class="fa-solid fa-download down"></i>
+        <img src="blog-post-2.jpg" alt="" width="40px" height="40px">
+        <i onclick="thumbsup4()" id="thumbsup4" class="fa-solid fa-thumbs-up icon"></i>
+        <i onclick="thumbsdown4()" id="thumbsdown4" class="fa-solid fa-thumbs-down icon1"></i>
+        <i class="fa-solid fa-download down"></i>
+        <img src="cover.jpg" alt="" width="40px" height="40px">
+        <i onclick="thumbsup5()" id="thumbsup5" class="fa-solid fa-thumbs-up icon"></i>
+        <i onclick="thumbsdown5()" id="thumbsdown5" class="fa-solid fa-thumbs-down icon1"></i>
+        <i class="fa-solid fa-download down"></i>
+        <img src="blog-post-2-cover.jpg" alt="" width="40px" height="40px">
+        <i onclick="thumbsup6()" id="thumbsup6" class="fa-solid fa-thumbs-up icon"></i>
+        <i onclick="thumbsdown6()" id="thumbsdown" class="fa-solid fa-thumbs-down icon1"></i>
+        <i class="fa-solid fa-download down"></i>
+        <img src="blog-post-1.jpg" alt="" width="40px" height="40px">
+        <i onclick="thumbsup7()" id="thumbsup7" class="fa-solid fa-thumbs-up icon"></i>
+        <i onclick="thumbsdown7()" id="thumbsdown7" class="fa-solid fa-thumbs-down icon1"></i>
+        <i class="fa-solid fa-download down"></i>
+        <img src="blog-post-3.jpg" alt="" width="40px" height="40px">
+        <i onclick="thumbsup8()" id="thumbsup8" class="fa-solid fa-thumbs-up icon"></i>
+        <i onclick="thumbsdown8()" id="thumbsdown8" class="fa-solid fa-thumbs-down icon1"></i>
+        <i class="fa-solid fa-download down"></i>
+        <img src="blog-post-4.jpg" alt="" width="40px" height="40px">
+        <i onclick="thumbsup9()" id="thumbsup9" class="fa-solid fa-thumbs-up icon"></i>
+        <i onclick="thumbsdown9()" id="thumbsdown9" class="fa-solid fa-thumbs-down icon1"></i>
+        <i class="fa-solid fa-download down"></i>
+        <img src="beaches.jpg" alt="" width="40px" height="40px">
+        <i onclick="thumbsup10()" id="thumbsup10" class="fa-solid fa-thumbs-up icon"></i>
+        <i onclick="thumbsdown10()" id="thumbsdown10" class="fa-solid fa-thumbs-down icon1"></i>
+        <i class="fa-solid fa-download down"></i>
+    </div> 
+</header>
+<script>
+  function thumbsup(){
+    document.getElementById("thumbsup").style.color="blue"
+    document.getElementById("thumbsdown").style.color="white"
+  }
+  function thumbsdown(){
+    document.getElementById("thumbsdown").style.color="blue"
+    document.getElementById("thumbsup").style.color="white"
+  }
+  function thumbsup1(){
+    document.getElementById("thumbsup1").style.color="blue"
+    document.getElementById("thumbsdown1").style.color="white"
+  }
+  function thumbsdown1(){
+    document.getElementById("thumbsdown1").style.color="blue"
+    document.getElementById("thumbsup1").style.color="white"
+  }
+  function thumbsup2(){
+    document.getElementById("thumbsup2").style.color="blue"
+    document.getElementById("thumbsdown2").style.color="white"
+  }
+  function thumbsdown2(){
+    document.getElementById("thumbsdown2").style.color="blue"
+    document.getElementById("thumbsup2").style.color="white"
+  }
+  function thumbsup3(){
+    document.getElementById("thumbsup3").style.color="blue"
+    document.getElementById("thumbsdown3").style.color="white"
+  }
+  function thumbsdown3(){
+    document.getElementById("thumbsdown3").style.color="blue"
+    document.getElementById("thumbsup3").style.color="white"
+  }
+  function thumbsup4(){
+    document.getElementById("thumbsup4").style.color="blue"
+    document.getElementById("thumbsdown4").style.color="white"
+  }
+  function thumbsdown4(){
+    document.getElementById("thumbsdown4").style.color="blue"
+    document.getElementById("thumbsup4").style.color="white"
+  }
+  function thumbsup5(){
+    document.getElementById("thumbsup5").style.color="blue"
+    document.getElementById("thumbsdown5").style.color="white"
+  }
+  function thumbsdown5(){
+    document.getElementById("thumbsdown5").style.color="blue"
+    document.getElementById("thumbsup5").style.color="white"
+  }
+  function thumbsup6(){
+    document.getElementById("thumbsup6").style.color="blue"
+    document.getElementById("thumbsdown6").style.color="white"
+  }
+  function thumbsdown6(){
+    document.getElementById("thumbsdown6").style.color="blue"
+    document.getElementById("thumbsup6").style.color="white"
+  }
+  function thumbsup7(){
+    document.getElementById("thumbsup7").style.color="blue"
+    document.getElementById("thumbsdown7").style.color="white"
+  }
+  function thumbsdown7(){
+    document.getElementById("thumbsdown7").style.color="blue"
+    document.getElementById("thumbsup7").style.color="white"
+  }
+  function thumbsup8(){
+    document.getElementById("thumbsup8").style.color="blue"
+    document.getElementById("thumbsdown8").style.color="white"
+  }
+  function thumbsdown8(){
+    document.getElementById("thumbsdown8").style.color="blue"
+    document.getElementById("thumbsup8").style.color="white"
+  }
+  function thumbsup9(){
+    document.getElementById("thumbsup9").style.color="blue"
+    document.getElementById("thumbsdown9").style.color="white"
+  }
+  function thumbsdown9(){
+    document.getElementById("thumbsdown9").style.color="blue"
+    document.getElementById("thumbsup9").style.color="white"
+  }
+  function thumbsup10(){
+    document.getElementById("thumbsup10").style.color="blue"
+    document.getElementById("thumbsdown10").style.color="black"
+  }
+  function thumbsdown10(){
+    document.getElementById("thumbsdown10").style.color="blue"
+    document.getElementById("thumbsup10").style.color="white"
+  }
+</script>
+</body>
+</html>
